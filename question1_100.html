@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<title>CCNA 1_100 번역</title>
+</head>
+<body>
+<font size="4">
+QUESTION 1<br>
+Which technology supports the stateless assignment of IPv6 addresses?(Choose two.)<br>
+IPv6주소의 상태 비저장 할당을 지원하는 기술은 무엇입니까?(두개 선택) <br><br>
+<ol>
+	<li>DNS</li> 
+	<li>DHCPv6</li>
+	<li>DHCP</li>
+	<li>autoconfiguration</li>
+</ol><br>
+정답 : 2,4 <br><br><br>
+QUESTION 2<br>
+After you configure the Loopback0 interface, which command can you enter to verify the status of the interface and determine whether fast switching is enabled? 
+<br>
+루프 백 인터페이스를 구성한 후 인터페이스의 상태를 확인하고 빠른 스위칭이 활성화되어 있는지 확인하기 위해 어떤 명령을 입력할 수 있습니까?
+<ol>
+	<li> Router#show ip interface loopback 0 </li>
+	<li> Router#show run </li>
+	<li>Router#show interface loopback 0 </li>
+	<li> Router#show ip interface brief</li>
+</ol><br>
+정답 :1 <br><br><br>
+QUESTION 3<br>
+What are two requirements for an HSRP group? (Choose two.) <br>
+HSRP그룹에 대한 두가지 요구 사항은 무엇입니까? (두개 선택)
+<ol>
+	<li>exactly one active router</li>
+	<li>one or more standby routers</li>
+	<li>one or more backup virtual router</li>
+	<li>exactly one standby active route</li>
+	<li>exactly one backup virtual router</li><br>
+	
+</ol><br>
+정답 1,4 <br><br><br>
+QUESTION 4<br>
+Which command sequence can you enter to create VLAN 20 and assign it to an interface on a switch? <br>
+VLAN20을 생성하고 스위치의 인터페이스에 할당하기 위해 입력할 수 있는 명령 시퀀스는 무엇입니까?
+<ol>
+	<li> Switch(config)#Interface gig x/y<br>Switch(config-if)#vlan 20<br> Switch(config-vlan)#switchport access vlan 20 </li>
+	<li>Switch(config)#vlan 20<br> Switch(config)#Interface vlan 20 <br>Switch(config-if)#switchport trunk native vlan 20 </li>
+	<li> Switch(config)#vlan 20 <br>Switch(config)#Interface vlan 20 <br>Switch(config-if)#switchport access vlan 20 </li>
+	<li> Switch(config)#vlan 20<br> Switch(config)#Interface gig x/y <br>Switch(config-if)#switchport access vlan 20</li>
+	<li> Switch(config)#vlan 20<br> Switch(config)#Interface vlan 20 <br>Switch(config-if)#switchport trunk allowed vlan 20</li>
+</ol><br>
+정답:4<br><br><br>
+QUESTION 5<br>
+Which three commands can you use to set a router boot image? (Choose three.) <br>
+라우터 부팅 이미지를 설정하는 데 사용할 수 있는 세가지 명령은 무엇입니까? (3개 선택)
+<ol>
+	<li>Router(config)# boot system flash c4500-p-mz.121-20.bin </li>
+	<li>Router(config)# boot system tftp c7300-js-mz.122-33.SB8a.bin </li>
+	<li> Router(config)#boot system rom c7301-advipservicesk9-mz.124-24.T4.bin </li>
+	<li> Router> boot flash:c180x-adventerprisek9-mz-124-6T.bin</li>
+	<li> Router(config)#boot flash:c180x-adventerprisek9-mz-124-6T.bin </li>
+	<li> Router(config)#boot bootldr bootflash:c4500-jk9s-mz.122-23f.bin</li>
+</ol><br>
+정답 1,2,3 <br><br><br>
+QUESTION 6<br>
+Which two statements about IPv6 and routing protocols are true? (Choose two.)
+<br>다음 중 IPv6및 라우팅 프로토콜에 대한 설명으로 옳은 것은 무엇입니까? (두개 선택)<br>
+<ol>
+	<li>EIGRPv3 was developed to support IPv6 routing. &nbsp &nbsp &nbsp &nbsp<strong>[EIGRv3은 IPv6라우팅을 지원하도록 개발되었다.]</strong> </li>
+	<li>OSPFv3 was developed to support IPv6 routing. &nbsp &nbsp &nbsp &nbsp <strong>[OSPFv3은 IPv6라우팅을 지원하도록 개발되었습니다.]</strong></li>
+	<li> Loopback addresses are used to form routing adjacencies.  &nbsp &nbsp &nbsp &nbsp<strong>[루프 백 주소는 라우팅 승인을 형성하는 데 사용됩니다]</strong></li>
+	<li> EIGRP, OSPF, and BGP are the only routing protocols that support IPv6.  &nbsp &nbsp &nbsp &nbsp<strong>[EIGRP, OSPF및 BGP는 IPv6을 지원하는 유일한 라우팅 프로토콜입니다.]</strong></li>
+	<li> Link-local addresses are used to form routing adjacencies.  &nbsp &nbsp &nbsp &nbsp<strong>[링크 로컬 주소는 라우팅 어드밴스트를 형성하는 데 사용된다.]</strong></li>
+</ol><br> 
+정답 2,5<br><br><br>
+QUESTION 7<br>
+If primary and secondary root switches with priority 16384 both experience catastrophic losses, which tertiary switch can take over?<br>
+ 우선 순위가 16384인 기본 및 보조 루트 스위치가 모두 치명적인 손실을 입은 경우, 어떤 3차 스위치가 대신할 수 있습니까?<br>
+ <ol>
+ 	<li> a switch with priority 20480 </li>
+ 	<li> a switch with priority 8192 </li>
+ 	<li> a switch with priority 4096 </li>
+ 	<li>. a switch with priority 12288</li>
+ 	
+ 	
+ </ol><br>
+ 정답 : 1 <br><br><br>
+ 
+ QUESTION 8 <br>
+ Which two statements about late collisions are true? (Choose two.)<br>
+ 다음 중 충돌 사고에 대한 두가지 설명으로 옳은 것은? (두개 선택)<br>
+ <ol>
+ 	<li> They may indicate a duplex mismatch.      &nbsp &nbsp &nbsp &nbsp <strong>   이중 불일치를 나타낼 수 있습니다.</strong> </li>
+ 	<li> By definition, they occur after the 512th bit of the frame has been transmitted.  &nbsp &nbsp &nbsp &nbsp<strong>정의에 따르면, 프레임의 512번째 비트가 전송된 후에 발생합니다.</strong></li>
+ 	<li> They indicate received frames that did not pass the FCS match. &nbsp &nbsp &nbsp &nbsp<strong>FCS매치를 통과하지 못한 프레임이 수신되었음을 나타냅니다.</strong></li>
+ 	<li>They are frames that exceed 1518 bytes. &nbsp &nbsp &nbsp &nbsp<strong>프레임은 1518바이트를 초과하는 프레임입니다.</strong></li>
+ 	<li>They occur when CRC errors and interference occur on the cable. &nbsp &nbsp &nbsp &nbsp<strong>케이블에서 CRC오류와 간섭이 발생할 때 발생합니다.</strong>
+ 	</li>
+ </ol><br>
+ 
+ 정답 1,2<br><br><br> 
+ 
+ QUESTION 9<br>
+ Which command can you enter to set the default route for all traffic to an interface? <br>
+ 모든 트래픽에 대한 기본 경로를 인터페이스로 설정하려면 어떤 명령을 입력할 수 있습니까?<br>
+ <ol>
+ 	<li> router(config)#ip route 0.0.0.0 0.0.0.0 GigabitEthernet0/1 </li>
+ 	<li> router(config)#ip route 0.0.0.0 255.255.255.255 GigabitEthernet0/1</li>
+ 	<li>router(config-router)#default-information originate </li>
+ 	<li>router(config-router)#default-information originate always</li>
+ 	
+ 	
+ 	
+ </ol><br>
+ 정답 1 <br><br><br>
+ 
+ QUESTION 10 <br>
+ Which two spanning-tree port states does RSTP combine to allow faster convergence? (Choose two.) <br>
+ RSTP가 더 빠른 수렴을 위해 결합한 두개의 분할 트리 포트 상태는 무엇입니까? (두개 선택)<br>
+ <ol>
+ 	<li> blocking </li>
+ 	<li> listening </li>
+ 	<li> learning </li>
+ 	<li> forwarding </li>
+ 	<li> discarding</li>
+ </ol><br>
+ 정답 1,2<br><br><br>
+ QUESTION 11<br>
+ If a router has four interfaces and each interface is connected to four switches, how many broadcast domains are present on the router?<br>
+ 라우터에 4개의 인터페이스가 있고 각 인터페이스가 4개의 스위치에 연결되어 있는 경우, 라우터에는 몇개의 브로드캐스트 도메인이 있습니까?<br>
+ <ol>
+ 	<li>1</li>
+ 	<li>2</li>
+ 	<li>4</li>
+ 	<li>8</li>
+ </ol> <br>
+ 정답 3<br><br><br>
+ QUESTION 12<br>
+ Which command enables IPv6 forwarding on a cisco router?<br>
+ cisco라우터에서 IPv6전달을 가능하게 하는 명령은 무엇입니까?<br>
+ <ol>
+ 	<li>ipv6 host</li>
+ 	<li> ipv6 unicast-routing </li>
+ 	<li> ipv6 local </li>
+ 	<li>ipv6 neighbor
+ 	</li>
+ 	
+ </ol><br>
+ 정답 2<br><br><br>
+ 
+ QUESTION 13<br>
+ Refer to the exhibit. What is the most appropriate summarization for these routes?<br>
+ 표시란을 참고하세요. 이러한 경로에 가장 적합한 요약은 무엇입니까?<br>
+ <img src="a.PNG"><br>
+ <ol>
+ 	<li> 10.0.0.0 /21 </li>
+ 	<li> 10.0.0.0 /22 </li>
+ 	<li> 10.0.0.0 /23 </li>
+ 	<li> 10.0.0.0 /24 </li>
+ 	
+ </ol><br>
+ 정답 2 <br><br><br>
+ 
+ QUESTION 14<br>
+ Which set of commands is recommended to prevent the use of a hub in the access layer?<br>
+ 액세스 계층에서 허브를 사용하지 못하도록 권장하는 명령 집합은 무엇입니까?<br>
+ <ol>
+ 	<li> switch(config-if)#switchport mode trunk<br> switch(config-if)#switchport port-security maximum 1</li>
+ 	<li>switch(config-if)#switchport mode trunk <br>switch(config-if)#switchport port-security mac-address 1 </li>
+ 	<li> switch(config-if)#switchport mode access <br>switch(config-if)#switchport port-security maximum 1 </li>
+ 	<li> switch(config-if)#switchport mode access <br>switch(config-if)#switchport port-security mac-address 1
+ 	</li>
+ </ol><br>
+ 정답 3<br><br><br>
+ 
+ QUESTION 15<Br>
+ A router has learned three possible routes that could be used to reach a destination network. One route is from EIGRP and has a composite metric of 20514560. Another route is from OSPF with a metric of 782. The last is from RIPv2 and has a metric of 4. Which route or routes will the router install in the routing table?
+ <br>라우터는 대상 네트워크에 도달하는 데 사용할 수 있는 세가지 경로를 학습했습니다. 한 경로는 EIGRP에서 가져온 것으로 복합 메트릭은 20514560입니다. 또 다른 경로는 782의 메트릭을 가진 OSPF에서 온 것이다. 마지막은 RI고 2에서 온 것이고 4를 가지고 있다. 라우터가 라우팅 테이블에 설치할 경로 또는 경로는 무엇입니까?<br>
+ <ol>
+ 	<li>the OSPF route </li>
+ 	<li> the EIGRP route </li>
+ 	<li>the RIPv2 route </li>
+ 	<li>all three routes </li>
+ 	<li> the OSPF and RIPv2 routes
+ 	</li>
+ </ol><br>
+ 정답 2 <br><br><br>
+ QUESTION16<br>
+ Two routers named Atlanta and Brevard are connected via their serial interfaces as illustrated, but they are unable to communicate. The Atlanta router is known to have the correct configuration.<br>
+ Atlanta와 Brevard라는 이름의 두 라우터는 그림처럼 직렬 인터페이스를 통해 연결되지만 서로 통신할 수 없습니다. Atlanta  라우터는 올바른 구성을 가지고 있는 것으로 알려져 있습니다.<br>
+ <img src="b.PNG"><br>
+ <ol>
+ 	<li> incompatible IP address </li>
+ 	<li> insufficient bandwidth </li>
+ 	<li> incorrect subnet mask </li>
+ 	<li> incompatible encapsulation </li>
+ 	<li> link reliability too low </li>
+ 	<li> IPCP closed
+ 	</li>
+ </ol><br>
+ 정답 4 <br><br><br>
+ QUESTION 17<Br>
+ A network administrator needs to configure a serial link between the main office and a remote location.The router at the remote office is a non-cisco router. How should the network administrator configure the serial interface of the main office router to make the connection?
+ <br>네트워크 관리자는 본사와 원격 위치 간의 직렬 링크를 구성해야 합니다.원격 사무소의 라우터는 비시스코 라우터입니다. 네트워크 관리자는 연결하기 위해 본사 라우터의 직렬 인터페이스를 어떻게 구성해야 합니까?<br>
+ <ol>
+ 	<li> Main(config)#interface serial 0/0 <Br>Main(config-if)#ip address 172.16.1.1 255.255.255.252 <Br>Main(config-if)#no shut </li>
+ 	<li> Main(config)#interface serial 0/0<Br> Main(config-if)#ip address 172.16.1.1 255.255.255.252<Br> Main(config-if)#encapsulation ietf <Br>Main(config-if)#no shut </li>
+ 	<li> Main(config)#interface serial 0/0 <Br>Main(config-if)#ip address 172.16.1.1 255.255.255.252 <Br>Main(config-if)#encapsulation frame-relay <Br>Main(config-if)#authenication chap Main(config-if)#no shut </li>
+ 	<li> Main(config)#interface serial 0/0<Br> Main(config-if)#ip address 172.16.1.1 255.255.255.252<Br> Main(config-if)#encapsulation ppp <Br>Main(config-if)#no shut
+ 	</li>
+ </ol><br>
+ 정답 4 <br><br><br>
+ QUESTION 18<br>
+ Which layer 2 protocol encapsulation type supports synchronous and asynchronous circuis and has built-in security mechanisms?
+ <br>어떤 계층 2프로토콜 캡슐화 유형이 동기식 및 비동기식 회로를 지원하고 보안 메커니즘이 내장되어 있습니까?<br>
+ <ol>
+ 	<li> Frame Relay </li>
+ 	<li>HDLC</li>
+ 	<li>x.25 </li>
+ 	<li> PPP
+ 	</li>
+ </ol><br>
+ 정답 4<br><br><br>
+ 
+ QUESTION 19<br>
+ Refer to the exhibit. The two connected ports on the switch are not turning orange or green. What would be the most effective steps to troubleshoot this physical layer problem? (Choose three.)<bR>
+ 표시란을 참조하세요. 스위치에 연결된 두 포트가 주황색 또는 녹색으로 바뀌지 않습니다. 이 물리적 계층 문제를 해결하는 가장 효과적인 단계는 무엇입니까? (3개 선택)<br>
+ <img src="c.PNG"><br>
+ <ol>
+ 	<li> Ensure that the Ethernet encapsulations match on the interconnected router and switch ports. &nbsp &nbsp &nbsp &nbsp &nbsp <strong>이더넷 캡슐화가 상호 연결된 라우터 및 스위치 포트에서 일치하는지 확인합니다.</strong></li>
+ 	<li>Ensure that cables A and B are straight-through cables. &nbsp &nbsp &nbsp &nbsp &nbsp<strong>케이블 A및 B가 직선형 케이블인지 확인합니다.</strong> </li>
+ 	<li> Ensure cable A is plugged into a trunk port. &nbsp &nbsp &nbsp &nbsp<strong>케이블 A가 트렁크 포트에 꽂혀 있는지 확인합니다.</strong> </li>
+ 	<li> Ensure the switch has power. &nbsp &nbsp &nbsp &nbsp &nbsp<strong>스위치에 전원이 공급되는지 확인합니다.</strong> </li>
+ 	<li>Reboot all of the devices &nbsp &nbsp &nbsp &nbsp &nbsp<strong>모든 장치를 재부팅합니다.</strong></li>
+ 	<li> Reseat all cables &nbsp &nbsp &nbsp &nbsp<strong>모든 케이블 다시 장착</strong></li>
+ </ol><Br>
+ 
+ 정답 2,4,6 <br> <br> <br>
+ 
+ 
+ 
+ 
+ 
+ 
+
+</font>
+</body>
+</html>
